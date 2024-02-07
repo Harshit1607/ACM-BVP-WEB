@@ -27,7 +27,7 @@ Start the project locally.
 Fork the repository, then clone the repo locally by running command:
 
 ```sh
-git clone https://github.com/dakshkhetan/acm-bvp-website.git
+git clone https://github.com/SehajDeepSingh26/ACM-BVP-website.git
 ```
 
 ### Step 2: Install dependencies
