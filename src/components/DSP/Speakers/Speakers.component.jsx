@@ -5,15 +5,15 @@ import ProgressiveImage from "react-progressive-image";
 import SpeakerImage1 from "../../../assets/dsp-speakers/speaker2019.png";
 import SpeakerImage2 from "../../../assets/dsp-speakers/speaker2020.png";
 import SpeakerImage3 from "../../../assets/dsp-speakers/speaker2021.png";
+import SpeakerImage4 from "../../../assets/dsp-speakers/speaker2024.jpeg";
 import { ReactComponent as Illustration } from "../../../assets/illustrations/speaker.svg";
 
 import "./Speakers.styles.scss";
 
 const isNumberOfSpeakersOdd = () => {
   let speakersRow = document.getElementsByClassName("speaker-row");
-  let speakersInLastRow = speakersRow[
-    speakersRow.length - 1
-  ].getElementsByClassName("speaker");
+  let speakersInLastRow =
+    speakersRow[speakersRow.length - 1].getElementsByClassName("speaker");
 
   return speakersInLastRow.length === 1;
 };
@@ -35,8 +35,36 @@ const Speakers = ({ darkMode }) => {
       <Fade bottom>
         <h1 className="section-heading">Speakers</h1>
       </Fade>
+      
       <div className="section-content">
         <div className="speaker-row">
+            
+          <div className="speaker">
+            <Fade delay={150}>
+              <div className="image-container">
+                <ProgressiveImage src={SpeakerImage4} placeholder="">
+                  {(src, loading) => {
+                    return loading ? (
+                      <div className="loader-container">
+                        <div className="loading-spinner" />
+                      </div>
+                    ) : (
+                      <img src={src} alt="speaker" />
+                    );
+                  }}
+                </ProgressiveImage>
+              </div>
+            </Fade>
+            <Fade delay={250}>
+              <h2 className="title">DSP'24 SPEAKER</h2>
+              <h2 className="name">Dr. RICARDO BAEZA-YATES</h2>
+            </Fade>
+            <Fade delay={300}>
+              <p className="info">
+                 Director of Research at the Institute for Experiential AI of Northeastern University. Silicon Valley. CA Extensive engagement in global Al ethics. advising prestigious organizations and initiatives. Vast experience in tech leadership roles. including Yahoo Labs and NTENT. He is an expert member of the Global Partnership on Artificial Intelligence, a member of the Association for Computing Machinery's US Technology Policy Committee as well as ACM Community.
+              </p>
+            </Fade>
+          </div>
           <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">
@@ -70,7 +98,11 @@ const Speakers = ({ darkMode }) => {
             </Fade>
           </div>
 
-          <div className="speaker">
+          
+        </div>
+
+        <div className="speaker-row">
+        <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">
                 <ProgressiveImage src={SpeakerImage2} placeholder="">
@@ -101,9 +133,6 @@ const Speakers = ({ darkMode }) => {
               </p>
             </Fade>
           </div>
-        </div>
-
-        <div className="speaker-row">
           <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">

@@ -22,13 +22,13 @@ export const TeamData = {
     },
     {
       key: "3",
-      name: "Srishti Singhal",
+      name: "Harshita Marwaha",
       position: "Chairperson ACM-W",
-      linkedInURL: "https://www.linkedin.com/in/srishti-singhal-aa619225b",
-      githubURL: "https://github.com/sri-singhal",
-      instaURL:"https://www.instagram.com/srishtisinghal02/",
+      linkedInURL: "https://www.linkedin.com/in/harshita-marwaha-478b3a227/",
+      githubURL: "https://github.com/Harshita28m",
+      instaURL:"https://www.instagram.com/harshita_02m",
       twitterURL: "",
-      displayPicSrc: require("../assets/display-pics/Srishti.jpg")
+      displayPicSrc: require("../assets/display-pics/Harshita.jpg")
      
     },
     {
@@ -50,7 +50,7 @@ export const TeamData = {
       githubURL: "https://github.com/SehajDeepSingh26",
       instaURL: "https://www.instagram.com/__sehajdeep_singh/",
       twitterURL: "",
-      displayPicSrc: require("../assets/display-pics/s3.jpg")
+      displayPicSrc: require("../assets/display-pics/Sehajdeep_Singh.jpg")
     },
     {
       key: "6",

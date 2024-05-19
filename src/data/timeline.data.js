@@ -120,15 +120,76 @@ const timeline = [
     )
   },
   {
-    month: "Mar'21",
-    cover: require("../assets/month-art-cover/mar.jpg"),
-    info: (
-      <ul>
+      month: "Mar'21",
+      cover: require("../assets/month-art-cover/mar.jpg"),
+      info: (
+          <ul>
         <li>Web Development Session 2 - 20th March</li>
         <li>DSP'21 with Dr. Juan Wachs as the speaker - 25th March</li>
       </ul>
     )
-  }
+},
+{
+  month: "Nov'23",
+  cover: require("../assets/month-art-cover/nov.jpg"),
+  info: (
+    <ul>
+      <li>ACM Fiesta - 28th Nov</li>
+      {/* eslint-disable-next-line */}
+      <li>✨An exciting array of games✨</li>
+    </ul>
+  )
+},
+{
+  month: "Feb'24",
+  cover: require("../assets/month-art-cover/feb.jpg"),
+  info: (
+    <ul>
+      <li>Webinar- Open Source and Gsoc - 25th Feb</li>
+    </ul>
+  )
+},
+{
+    month: "Mar'24",
+    cover: require("../assets/month-art-cover/mar.jpg"),
+    info: (
+      <ul>
+        <li>GEEKOUT 2.0 - 5th March</li>
+        {/* eslint-disable-next-line */}
+        <li>GEEKOUT 2.0 BVEST'24 Technical Event!<span>🚀</span> </li>
+      </ul>
+    )
+  },
+  {
+    month: "Mar'24",
+    cover: require("../assets/month-art-cover/mar.jpg"),
+    info: (
+      <ul>
+        <li>Design Dazzle - 6th March</li>
+        <li>Reminiscing on the captivating energy of our Dazzle Design Technical Event! </li>
+      </ul>
+    )
+  },
+  {
+    month: "Mar'24",
+    cover: require("../assets/month-art-cover/mar.jpg"),
+    info: (
+      <ul>
+        <li>Distinguished Speaker program - 30th March</li>
+        <li>DSP'24 with Speaker Ricardo Baeza-Yates!</li>
+      </ul>
+    )
+  },
+  {
+    month: "April'24",
+    cover: require("../assets/month-art-cover/apr.jpg"),
+    info: (
+      <ul>
+        <li>Hour Of Code - 22nd March</li>
+        <li>Technical Session in Govt. Sarvodhya Co-Ed Vidhyalya on AI</li>
+      </ul>
+    )
+  },
 ];
 
 export const timelineData = timeline.reverse();

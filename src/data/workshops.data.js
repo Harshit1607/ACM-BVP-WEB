@@ -1,16 +1,66 @@
 export const workshops = [
   {
-    key: 6,
+    key: 12,
     code: "ml",
-    title: "SEMINAR ON MACHINE LEARNING",
+    title: "Hour Of Code",
     details:
-      'An amazing seminar on Machine Learning by Mr. Ankit Kariryaa (ML consultant for NASA). The seminar gave students insights on "Detection of Individual Tress at a very large scale".',
+      'ACM BVCOE transformed the Hour of Code into a memorable event for students, blending playtime with AI education. Their laughter and enthusiasm were truly inspiring, showcasing the fun side of learning about AI! 🎮🤖 #acm #hourofcode #aieducation #stemlearning',
     images: [
-      require("../assets/gallery/ml/ml1.jpg"),
-      require("../assets/gallery/ml/ml2.jpg"),
-      require("../assets/gallery/ml/ml3.jpg"),
-      require("../assets/gallery/ml/ml4.jpg"),
-      require("../assets/gallery/ml/ml5.jpg")
+        require("../assets/worskshop-section/HourOfCode/4.png"),
+        require("../assets/worskshop-section/HourOfCode/5.png"),
+        require("../assets/worskshop-section/HourOfCode/6.png")
+    ]
+  },
+  {
+    key: 11,
+    code: "ml",
+    title: "Distinguished Speaker Program",
+    details:
+      'Responsible AI 🤖 - Webinar by distinguished Speaker Ricardo Baeza-Yates!🚀',
+    images: [
+      require("../assets/worskshop-section/DSP/1.png"),
+      require("../assets/worskshop-section/DSP/2.png"),
+      require("../assets/worskshop-section/DSP/3.png"),
+    ]
+  },
+  {
+    key: 10,
+    code: "ml",
+    title: "Design Dazzle",
+    details:
+      'Reminiscing on the captivating energy of our Dazzle Design Technical Event! 🎨 From mesmerizing presentations to hands-on workshops, it was a day filled with inspiration and discovery.✨✨. Cheers to all the designers and tech enthusiasts who made it unforgettable!✌️',
+    images: [
+      require("../assets/worskshop-section/deisgnDazzle/1.png"),
+      require("../assets/worskshop-section/deisgnDazzle/aftertop1.png"),
+      require("../assets/worskshop-section/deisgnDazzle/aftertop2.png"),
+      require("../assets/worskshop-section/deisgnDazzle/top.png"),
+    ]
+  },
+  {
+    key: 9,
+    code: "ml",
+    title: "GEEKOUT 2.0",
+    details:
+      "Geekout 2.0 BVEST'24 Technical Event!🚀 Flashback to the thrill of our Geekout Technical Fest! 🚀 We're still buzzing with excitement from all the incredible tech demos, insightful discussions, and connections made.✨✨ A big shoutout to our amazing speakers, sponsors, and attendees for making this event one to remember. Here's to the next geeking out adventure!✨✨.",
+    images: [
+        require("../assets/worskshop-section/Geekout/aftertop1.png"),
+        require("../assets/worskshop-section/Geekout/aftertop2.png"),
+        require("../assets/worskshop-section/Geekout/highlight.png"),
+        require("../assets/worskshop-section/Geekout/top.png"),
+
+    ]
+  },
+  {
+    key: 8,
+    code: "ml",
+    title: "ACM FIESTA",
+    details:
+      'ACM BVP hosted an event that’s not just entertaining but also full of energy! 🥳✨.',
+    images: [
+        require("../assets/worskshop-section/fiesta/4.png"),
+        require("../assets/worskshop-section/fiesta/5.png"),
+        require("../assets/worskshop-section/fiesta/6.png"),
+
     ]
   },
   {
