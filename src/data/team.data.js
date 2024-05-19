@@ -44,6 +44,16 @@ export const TeamData = {
  
     {
       key: "5",
+      name: "Sehajdeep Singh",
+      position: "WebMaster ACM",
+      linkedInURL: "https://www.linkedin.com/in/sehajdeep-singh-/",
+      githubURL: "https://github.com/SehajDeepSingh26",
+      instaURL: "https://www.instagram.com/__sehajdeep_singh/",
+      twitterURL: "",
+      displayPicSrc: require("../assets/display-pics/s3.jpg")
+    },
+    {
+      key: "6",
       name: "Umang Jain",
       position: "General Secretary ACM",
       linkedInURL: "https://www.linkedin.com/in/umang-jain-a3b7051b3/",
@@ -53,7 +63,7 @@ export const TeamData = {
       displayPicSrc: require("../assets/display-pics/Umang.jpeg")
     },
     {
-      key: "6",
+      key: "7",
       name: "Shwetank Chaudhary",
       position: "Joint Secretary ACM",
       linkedInURL: "https://www.linkedin.com/in/shwetank-chaudhary-b03ab520a/",
@@ -64,7 +74,7 @@ export const TeamData = {
     },
       
     {
-      key: "7",
+      key: "8",
       name: "Saurav Sakkarwal",
       position: "Joint Secretary ACM-W",
       linkedInURL: "https://www.linkedin.com/in/saurav-sakkarwal-185890217/",
@@ -74,16 +84,6 @@ export const TeamData = {
       displayPicSrc: require("../assets/display-pics/Saurav.jpg")
     },
 
-    {
-      key: "8",
-      name: "Sehajdeep Singh",
-      position: "WebMaster ACM",
-      linkedInURL: "https://www.linkedin.com/in/sehajdeep-singh-/",
-      githubURL: "https://github.com/SehajDeepSingh26",
-      instaURL: "https://www.instagram.com/__sehajdeep_singh/",
-      twitterURL: "",
-      displayPicSrc: require("../assets/display-pics/s3.jpg")
-    },
     {
       key: "9",
       name: "Ankita Raj",
