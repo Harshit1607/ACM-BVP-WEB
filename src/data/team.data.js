@@ -2,13 +2,13 @@ export const TeamData = {
   members: [
     {
       key: "1",
-      name: "Saloni Kansal",
+      name: "Aryan Chopra",
       position: "Chairperson ACM",
-      linkedInURL: "https://www.linkedin.com/in/saloni-kansal/",
-      githubURL: "https://github.com/saloship",
-      instaURL: "https://www.instagram.com/saloni_falls/",
+      linkedInURL: "https://www.linkedin.com/in/aryann-chopraa",
+      githubURL: "https://github.com/aryanK1511",
+      instaURL: "https://www.instagram.com/aryann-chopraa/",
       twitterURL: "",
-      displayPicSrc: require("../assets/display-pics/Saloni.jpg")
+      displayPicSrc: require("../assets/display-pics/aryanchopra.jpg")
     },
     {
       key: "2",
