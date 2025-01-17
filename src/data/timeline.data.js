@@ -190,6 +190,26 @@ const timeline = [
       </ul>
     )
   },
+  {
+    month: "September'24",
+    cover: require("../assets/month-art-cover/sep.jpg"),
+    info: (
+      <ul>
+        <li>Blind Code - 22nd September</li>
+        <li>Technical Session in Govt. Sarvodhya Co-Ed Vidhyalya on AI</li>
+      </ul>
+    )
+  },
+  {
+    month: "October'24",
+    cover: require("../assets/month-art-cover/oct.jpg"),
+    info: (
+      <ul>
+        <li>Code Showdown - 22nd October</li>
+        <li>Code Showdown BVEST'24 Technical Event!<span>🚀</span></li>
+      </ul>
+    )
+  }
 ];
 
 export const timelineData = timeline.reverse();

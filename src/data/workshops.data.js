@@ -1,5 +1,25 @@
 export const workshops = [
   {
+    key: 14,
+    code: "dsa",
+    title: "Code Showdown",
+    details:
+      'ACM BVCOE brought the excitement of coding to life with Code Showdown! 💻✨ This 3-round DSA event challenged participants to push their problem-solving skills to the max, fostering teamwork and innovation along the way. The energy and passion of the students were contagious, proving that learning DSA can be both thrilling and rewarding!',
+    images: [
+        require("../assets/worskshop-section/codeShowdown/1.png"),
+    ]
+  },{
+    key: 13,
+    code: "dsa",
+    title: "Blind Code",
+    details:
+      'The ACM-BVP Society hosted an exciting event, BlindCode, designed to test coding enthusiasts skills like never before! 🖥️💡 Participants faced the ultimate challenge: solving coding problems with their screens entirely covered. The event highlighted problem-solving under pressure and added a unique twist to traditional coding, showcasing just how much our members love to push the limits!',
+    images: [
+        require("../assets/worskshop-section/blindCode/1.png"),
+        require("../assets/worskshop-section/blindCode/2.png"),
+        require("../assets/worskshop-section/blindCode/3.png")
+    ]
+  },{
     key: 12,
     code: "ml",
     title: "Hour Of Code",

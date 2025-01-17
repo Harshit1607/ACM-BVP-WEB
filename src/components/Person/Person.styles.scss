@@ -10,6 +10,7 @@
         height: 160px;
         border-radius: 50%;
         border: 4px solid #539dfe;
+        object-fit: cover;
 
         @media only screen and (max-width: 768px) {
           width: 140px;

@@ -74,7 +74,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="credit-link underline"
         >
-          Sehajdeep Singh
+          Harshit Bareja
         </a>
       </p>
     </section>
