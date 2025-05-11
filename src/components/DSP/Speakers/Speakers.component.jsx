@@ -6,6 +6,7 @@ import SpeakerImage1 from "../../../assets/dsp-speakers/speaker2019.png";
 import SpeakerImage2 from "../../../assets/dsp-speakers/speaker2020.png";
 import SpeakerImage3 from "../../../assets/dsp-speakers/speaker2021.png";
 import SpeakerImage4 from "../../../assets/dsp-speakers/speaker2024.jpeg";
+import SpeakerImage5 from "../../../assets/dsp-speakers/speaker2025.png";
 import { ReactComponent as Illustration } from "../../../assets/illustrations/speaker.svg";
 
 import "./Speakers.styles.scss";
@@ -38,7 +39,33 @@ const Speakers = ({ darkMode }) => {
       
       <div className="section-content">
         <div className="speaker-row">
-            
+          <div className="speaker">
+            <Fade delay={150}>
+              <div className="image-container">
+                <ProgressiveImage src={SpeakerImage5} placeholder="">
+                  {(src, loading) => {
+                    return loading ? (
+                      <div className="loader-container">
+                        <div className="loading-spinner" />
+                      </div>
+                    ) : (
+                      <img src={src} alt="speaker" />
+                    );
+                  }}
+                </ProgressiveImage>
+              </div>
+            </Fade>
+            <Fade delay={250}>
+              <h2 className="title">DSP'25 SPEAKER</h2>
+              <h2 className="name">Dr. NICOLAS SKALOV</h2>
+            </Fade>
+            <Fade delay={300}>
+              <p className="info">
+                 A Professor at the University of Patras, Greece, in the Department of Computer Engineering and Informatics. He leads the SCYTALE Group and directs the MSc program in Hardware and Software Integrated Systems (HSIS). His research focuses on Cybersecurity, Hardware Security, Cryptographic Engineering, and Embedded Systems. A Senior IEEE Member and ACM Distinguished Speaker, he has contributed extensively to international research projects, conferences, and journals, and serves on several scientific committees and editorial boards.
+              </p>
+            </Fade>
+          </div>
+
           <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">
@@ -65,6 +92,13 @@ const Speakers = ({ darkMode }) => {
               </p>
             </Fade>
           </div>
+
+        </div>
+        <div className="speaker-row">
+
+          
+            
+          
           <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">
@@ -98,11 +132,7 @@ const Speakers = ({ darkMode }) => {
             </Fade>
           </div>
 
-          
-        </div>
-
-        <div className="speaker-row">
-        <div className="speaker">
+          <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">
                 <ProgressiveImage src={SpeakerImage2} placeholder="">
@@ -133,6 +163,11 @@ const Speakers = ({ darkMode }) => {
               </p>
             </Fade>
           </div>
+          
+        </div>
+
+        <div className="speaker-row">
+        
           <div className="speaker">
             <Fade delay={150}>
               <div className="image-container">

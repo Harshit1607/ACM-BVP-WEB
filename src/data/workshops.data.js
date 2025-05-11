@@ -1,5 +1,45 @@
 export const workshops = [
   {
+    key: 18,
+    code: "dsa",
+    title: "Battle of Coders",
+    details:
+      'Battle of Coders was a high-energy competitive coding event designed to challenge participants with Data Structures and Algorithms (DSA) problems under time pressure. Participants competed head-to-head in an intense and intellectually stimulating environment.',
+    images: [
+        require("../assets/worskshop-section/battleOfCoders/1.png"),
+    ]
+  },
+  {
+    key: 17,
+    code: "ml",
+    title: "Distinguished Speaker Program",
+    details:
+      'Cybersecurity for 5g and 6g Technologies 🤖 - Webinar by distinguished Speaker Nicolas Skalov!🚀',
+    images: [
+        require("../assets/worskshop-section/DSP25/1.jpg"),
+    ]
+  },
+  {
+    key: 16,
+    code: "ml",
+    title: "Hour Of Code",
+    details:
+      'ACM BVCOE transformed the Hour of Code into a memorable event for students, blending playtime with AI education. Their laughter and enthusiasm were truly inspiring, showcasing the fun side of learning about AI! 🎮🤖 #acm #hourofcode #aieducation #stemlearning',
+    images: [
+        require("../assets/worskshop-section/HourOfCode25/1.jpg"),
+    ]
+  },
+  {
+    key: 15,
+    code: "ml",
+    title: "Ai-Fundamental Workshop",
+    details:
+      'Ai FUndamentals 🤖 - Webinar by Professor Dr. Ravi Prakash!🚀',
+    images: [
+        require("../assets/worskshop-section/AiWorkshop25/1.jpg"),
+    ]
+  },
+  {
     key: 14,
     code: "dsa",
     title: "Code Showdown",

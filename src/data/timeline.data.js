@@ -196,7 +196,7 @@ const timeline = [
     info: (
       <ul>
         <li>Blind Code - 22nd September</li>
-        <li>Technical Session in Govt. Sarvodhya Co-Ed Vidhyalya on AI</li>
+        <li>Technical Event!</li>
       </ul>
     )
   },
@@ -209,7 +209,44 @@ const timeline = [
         <li>Code Showdown BVEST'24 Technical Event!<span>🚀</span></li>
       </ul>
     )
-  }
+  },
+  {
+    month: "November'24",
+    cover: require("../assets/month-art-cover/nov.jpg"),
+    info: (
+      <ul>
+        <li>Ai Workshop - 17th November</li>
+        <li>Ai FUndamentals Workshop<span>🚀</span></li>
+      </ul>
+    )
+  },{
+    month: "Jan'25",
+    cover: require("../assets/month-art-cover/jan.jpg"),
+    info: (
+      <ul>
+        <li>Hour of Code - 24th January</li>
+        <li>Technical Session in Govt. Sarvodhya Co-Ed Vidhyalya on AI</li>
+      </ul>
+    )
+  },{
+    month: "April'25",
+    cover: require("../assets/month-art-cover/apr.jpg"),
+    info: (
+      <ul>
+        <li>Distinguished Speaker program - 1st April</li>
+        <li>DSP'25 with Speaker Nicolas Skalov!</li>
+      </ul>
+    )
+  },{
+    month: "April'25",
+    cover: require("../assets/month-art-cover/apr.jpg"),
+    info: (
+      <ul>
+        <li>Battle of Coders - 8th April</li>
+        <li>DSA tournament!</li>
+      </ul>
+    )
+  },
 ];
 
 export const timelineData = timeline.reverse();
